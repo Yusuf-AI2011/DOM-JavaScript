@@ -91,6 +91,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 30px;
   display: none;
 }
 
@@ -154,5 +155,20 @@
 
   .line-col, .line-row {
     display: none;
+  }
+
+  .secondWindow {
+    width: 100%;
+  }
+
+  .secondTitle {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .secondInput {
+    width: 90%;
+    margin: auto;
+    font-size: 40px;
   }
 }
