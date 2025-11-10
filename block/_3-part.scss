@@ -1,0 +1,22 @@
+.right3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.plus {
+  color: green;
+}
+
+.minus {
+  color: red;
+}
+
+.input__text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  color: rgb(247, 75, 75);
+}

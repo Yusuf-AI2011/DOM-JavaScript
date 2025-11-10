@@ -1,0 +1,113 @@
+.part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 30%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.button {
+  font-family: "montserrat";
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid rgb(247, 75, 75);
+  background-color: #ffffff;
+  color: rgb(247, 75, 75);
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.input,
+.submit {
+  width: 500px;
+  height: 50px;
+  padding: 0px 0px 0px 5px;
+  font-family: "montserrat";
+  color: rgb(247, 75, 75);
+  background-color: #ffffff;
+  border: 1px solid rgb(247, 75, 75);
+}
+
+.input2 {
+  border: none;
+}
+
+.right {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.line-col {
+  width: 0px;
+  height: 600px;
+  border: 1px solid rgb(247, 75, 75);
+}
+
+.userName {
+  font-family: "montserrat";
+  font-size: 50px;
+  color: rgb(247, 75, 75);
+}
+
+.line-row {
+  width: 600px;
+  height: 0px;
+  border: 1px solid rgb(247, 75, 75);
+}
+
+.secondWindow {
+  margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+
+.secondTitle {
+  color: rgb(247, 75, 75);
+  font-family: "montserrat";
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.secondInput {
+  width: 600px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  border: 1px dashed rgb(247, 75, 75);
+  color: rgb(247, 75, 75);
+  font-size: 50px;
+  font-family: "montserrat";
+  font-weight: 900;
+}
